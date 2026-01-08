@@ -1,0 +1,85 @@
+{
+  "source": {
+    "authority": "SQA",
+    "qualification_level": "Higher",
+    "subject": "Physics",
+    "year": 2024,
+    "paper": 1,
+    "component": "Multiple Choice"
+  },
+  "questions": [
+    {
+      "id": "2024-P1-Q01",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Kinematics",
+      "subtopics": ["SUVAT", "constant acceleration"],
+      "prompt": {
+        "stem": "A cyclist travelling along a straight track accelerates uniformly. The speed of the cyclist increases from 4.0 m s−1 to 7.5 m s−1 in 2.9 s. What is the distance travelled by the cyclist during this time?",
+        "options": [
+          "17 m",
+          "17.7 m",
+          "18.9 m",
+          "22 m",
+          "32 m"
+        ],
+        "assets": []
+      },
+      "answer": { "mcq_key": "C" },
+      "socratic_hints": {
+        "level1": ["Use a constant-acceleration relationship from the data sheet."],
+        "level2": ["Find the acceleration, then use a distance equation involving time."],
+        "level3": [
+          { "step": "Acceleration", "mark_award": 0.5, "content": "a = (v − u)/t = (7.5 − 4.0)/2.9 = 1.21 m s−2" },
+          { "step": "Distance", "mark_award": 0.5, "content": "s = ut + ½at2" },
+          { "step": "Final answer", "mark_award": 1.0, "content": "s ≈ 18.9 m (2 s.f.)" }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Using v = u + at only",
+          "Forgetting to square time",
+          "Sign error on acceleration"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q02",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Projectiles",
+      "subtopics": ["horizontal projection", "components"],
+      "prompt": {
+        "stem": "A ball is projected horizontally from the top of a cliff. Which statement correctly describes the horizontal and vertical components of velocity (air resistance negligible)?",
+        "options": [
+          "Horizontal velocity increases; vertical velocity is constant.",
+          "Horizontal velocity is constant; vertical velocity increases.",
+          "Horizontal velocity decreases; vertical velocity is constant.",
+          "Horizontal velocity increases; vertical velocity decreases.",
+          "Horizontal velocity is constant; vertical velocity is constant."
+        ],
+        "assets": []
+      },
+      "answer": { "mcq_key": "B" },
+      "socratic_hints": {
+        "level1": ["Consider horizontal and vertical motion separately."],
+        "level2": ["There is no horizontal acceleration, but vertical acceleration due to gravity."],
+        "level3": [
+          { "step": "Horizontal motion", "mark_award": 0.5, "content": "aₓ = 0 ⇒ vₓ constant" },
+          { "step": "Vertical motion", "mark_award": 0.5, "content": "aᵧ = g ⇒ vᵧ increases in magnitude" },
+          { "step": "Conclusion", "mark_award": 1.0, "content": "Correct option is B." }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Thinking gravity affects horizontal motion",
+          "Confusing velocity with acceleration"
+        ]
+      }
+    }
+  ]
+}
