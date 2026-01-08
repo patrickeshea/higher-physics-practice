@@ -71,6 +71,13 @@ function topicKey(q) {
   return `${q.unit}__${q.topic}`;
 }
 
+// Fetch JSON helper (so errors are consistent and readable)
+async function fetchJson(path) {
+  const res = await fetch(`${import.meta.env.BASE_URL}${path}`);
+  if (!res.ok) throw new Error(`${path} (HTTP ${res.status})`);
+  return res.json();
+}
+
 /* ---------- App ---------- */
 
 export default function App() {
@@ -92,19 +99,48 @@ export default function App() {
 
   const startTimeRef = useRef(Date.now());
 
-  // Load questions.json on startup
+  // NEW: Load data/index.json, then load all listed files, then merge questions
   useEffect(() => {
     (async () => {
       try {
         setLoadError("");
-        const res = await fetch(`${import.meta.env.BASE_URL}data/questions.json`);
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const data = await res.json();
-        if (!data?.questions?.length) throw new Error("No questions[] found");
-        setAllQuestions(data.questions);
+
+        // 1) Load the index file which lists all question-bank JSON files
+        const indexData = await fetchJson("data/index.json");
+        if (!indexData?.files?.length) throw new Error("data/index.json has no files[] list");
+
+        // 2) Load each question-bank file
+        const banks = [];
+        for (const file of indexData.files) {
+          const bank = await fetchJson(file);
+          if (!bank?.questions?.length) {
+            throw new Error(`${file} loaded but had no questions[]`);
+          }
+          banks.push(bank);
+        }
+
+        // 3) Merge questions and remove any duplicates by id
+        const merged = [];
+        const seen = new Set();
+
+        for (const bank of banks) {
+          for (const q of bank.questions) {
+            if (!q?.id) continue;
+            if (seen.has(q.id)) continue;
+            seen.add(q.id);
+            merged.push(q);
+          }
+        }
+
+        if (!merged.length) throw new Error("No questions found after merging banks");
+
+        setAllQuestions(merged);
       } catch (e) {
         setLoadError(
-          "Could not load questions.\n\nExpected: public/data/questions.json\n\n" +
+          "Could not load question bank files.\n\n" +
+            "Make sure BOTH exist:\n" +
+            "- public/data/index.json\n" +
+            "- the files listed inside it (e.g. public/data/2024_p1.json)\n\n" +
             `Details: ${String(e?.message || e)}`
         );
       }
@@ -293,9 +329,7 @@ export default function App() {
         <main className="container">
           <div className="card">
             <h2>Summary</h2>
-            <p className="muted">
-              “Correct with hints” still counts as needing practice.
-            </p>
+            <p className="muted">“Correct with hints” still counts as needing practice.</p>
 
             {topicSummary.length === 0 ? (
               <p>No attempts recorded yet.</p>
@@ -310,10 +344,7 @@ export default function App() {
 
                     <div className="progressRow">
                       <div className="progressBar">
-                        <div
-                          className="progressFill"
-                          style={{ width: `${Math.round(100 * t.accuracy)}%` }}
-                        />
+                        <div className="progressFill" style={{ width: `${Math.round(100 * t.accuracy)}%` }} />
                       </div>
                       <div className="progressText">{Math.round(100 * t.accuracy)}%</div>
                     </div>
@@ -351,7 +382,7 @@ export default function App() {
           <div>
             <div className="title">Higher Physics Practice</div>
             <div className="subtitle">
-              Paper 1 • MCQ • Session: {total ? `${index + 1}/${total}` : "…"}
+              MCQ • Session: {total ? `${index + 1}/${total}` : "…"} • Bank: {allQuestions.length} questions
             </div>
           </div>
         </div>
@@ -384,7 +415,6 @@ export default function App() {
               <HtmlText text={current.prompt?.stem || "(Missing stem)"} />
             </h2>
 
-            {/* assets (optional) */}
             {Array.isArray(current.prompt?.assets) && current.prompt.assets.length > 0 && (
               <div className="assetBox">
                 {current.prompt.assets.map((a, i) => (
@@ -587,3 +617,4 @@ export default function App() {
     </div>
   );
 }
+
