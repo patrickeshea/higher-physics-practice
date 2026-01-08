@@ -1,0 +1,75 @@
+{
+  "source": {
+    "authority": "SQA",
+    "qualification_level": "Higher",
+    "subject": "Physics",
+    "year": 2024,
+    "paper": 1,
+    "component": "Multiple Choice"
+  },
+  "questions": [
+    {
+      "id": "2024-P1-Q01",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Kinematics",
+      "subtopics": ["SUVAT", "constant acceleration"],
+      "prompt": {
+        "stem": "A cyclist travelling along a straight track accelerates uniformly. The speed of the cyclist increases from 4.0 m s−1 to 7.5 m s−1 in 2.9 s. What is the distance travelled by the cyclist during this time?",
+        "options": [
+          "17 m",
+          "17.7 m",
+          "18.9 m",
+          "22 m",
+          "32 m"
+        ],
+        "assets": []
+      },
+      "answer": { "mcq_key": "C" },
+      "socratic_hints": {
+        "level1": ["Use a constant-acceleration equation that does not involve distance and time separately."],
+        "level2": ["Use v² = u² + 2as to find a, then s = ut + ½at²."],
+        "level3": [
+          { "step": "Find acceleration", "mark_award": 0.5, "content": "a = (v − u)/t = (7.5 − 4.0)/2.9 = 1.21 m s⁻²" },
+          { "step": "Substitute into distance equation", "mark_award": 0.5, "content": "s = ut + ½at² = 4.0×2.9 + 0.5×1.21×(2.9)²" },
+          { "step": "Final answer", "mark_award": 1.0, "content": "s ≈ 18.9 m (2 s.f.)" }
+        ]
+      }
+    }
+    ,
+{
+  "id": "2024-P1-Q02",
+  "paper": 1,
+  "type": "mcq",
+  "marks": 1,
+  "unit": "Our Dynamic Universe",
+  "topic": "Projectiles",
+  "subtopics": ["components", "horizontal motion", "vertical motion"],
+  "prompt": {
+    "stem": "A ball is projected horizontally from a height. Which statement is correct about the horizontal and vertical components of velocity during the motion (neglect air resistance)?",
+    "options": [
+      "Horizontal velocity increases; vertical velocity is constant.",
+      "Horizontal velocity is constant; vertical velocity increases.",
+      "Horizontal velocity decreases; vertical velocity is constant.",
+      "Horizontal velocity increases; vertical velocity decreases.",
+      "Horizontal velocity is constant; vertical velocity is constant."
+    ],
+    "assets": []
+  },
+  "answer": { "mcq_key": "B" },
+  "socratic_hints": {
+    "level1": ["Treat horizontal and vertical motion separately. Gravity only affects vertical motion."],
+    "level2": ["Horizontal acceleration is 0, so horizontal velocity stays constant. Vertical acceleration is g downward, so vertical velocity changes."],
+    "level3": [
+      { "step": "Identify accelerations", "mark_award": 0.5, "content": "Horizontal: a_x = 0. Vertical: a_y = g downward." },
+      { "step": "Describe velocity changes", "mark_award": 0.5, " hookup": "", "content": "With a_x=0, v_x is constant. With a_y=g, the magnitude of v_y increases with time." },
+      { "step": "Pick option", "mark_award": 1.0, "content": "Horizontal velocity constant; vertical velocity increases → option B." }
+    ]
+  }
+}
+
+  ]
+  
+}
