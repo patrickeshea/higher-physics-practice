@@ -1,3 +1,10 @@
 {
-  "files": ["data/2024_p1.json"]
+  "banks": [
+    {
+      "id": "2024-p1",
+      "path": "data/bank/2024/p1/index.json",
+      "paper": 1,
+      "year": 2024
+    }
+  ]
 }
