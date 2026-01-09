@@ -1,0 +1,71 @@
+{
+  "source": {
+    "authority": "SQA",
+    "qualification_level": "Higher",
+    "subject": "Physics",
+    "year": 2024,
+    "paper": 1,
+    "component": "Multiple Choice",
+    "question_paper_pdf": "NH_Physics_Paper1-Multiple-choice_2024.pdf",
+    "marking_instructions_pdf": "mi_NH_Physics_Paper-1-Multiple-choice_2024.pdf"
+  },
+  "questions": [
+    {
+      "id": "2024-P1-Q11",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Particles and Waves",
+      "topic": "Nuclear physics",
+      "subtopics": [
+        "Beta decay",
+        "Neutrino"
+      ],
+      "prompt": {
+        "stem": "The following statement represents beta decay. 11 0 0 1 1 e n p eν    Beta decay provided the first evidence for the existence of the",
+        "options": [
+          "A quark",
+          "B neutrino",
+          "C electron",
+          "D proton",
+          "E neutron."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "B"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Recall what was 'missing' in beta decay observations that led to a new particle being proposed."
+        ],
+        "level2": [
+          "Energy and momentum did not appear conserved unless a neutral, low-mass particle was emitted."
+        ],
+        "level3": [
+          {
+            "step": "Conservation issue",
+            "mark_award": 0.5,
+            "content": "Beta decay showed a continuous beta energy spectrum, suggesting missing energy/momentum."
+          },
+          {
+            "step": "Inference",
+            "mark_award": 0.5,
+            "content": "A neutral particle was proposed to carry away the missing energy/momentum."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "That particle is the neutrino → option B."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Choosing electron because it is emitted",
+          "Not recognising neutrino was postulated to conserve energy/momentum"
+        ]
+      }
+    }
+  ]
+}

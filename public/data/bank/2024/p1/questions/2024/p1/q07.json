@@ -1,0 +1,71 @@
+{
+  "source": {
+    "authority": "SQA",
+    "qualification_level": "Higher",
+    "subject": "Physics",
+    "year": 2024,
+    "paper": 1,
+    "component": "Multiple Choice",
+    "question_paper_pdf": "NH_Physics_Paper1-Multiple-choice_2024.pdf",
+    "marking_instructions_pdf": "mi_NH_Physics_Paper-1-Multiple-choice_2024.pdf"
+  },
+  "questions": [
+    {
+      "id": "2024-P1-Q07",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Special relativity",
+      "subtopics": [
+        "Time dilation",
+        "Lorentz factor"
+      ],
+      "prompt": {
+        "stem": "A spacecraft is travelling at a speed of 0.20c relative to the Earth. The spacecraft emits a signal for 20.0 s as measured in the frame of reference of the spacecraft. An observer on Earth measures the duration of the signal as",
+        "options": [
+          "A 19.2 s",
+          "B 19.6 s",
+          "C 20.0 s",
+          "D 20.4 s",
+          "E 20.8 s."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "D"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Identify the time dilation relationship between proper time and dilated time."
+        ],
+        "level2": [
+          "Compute γ = 1/√(1−v²/c²) for v = 0.20c, then t = γ t0."
+        ],
+        "level3": [
+          {
+            "step": "Formula",
+            "mark_award": 0.5,
+            "content": "t = γ t0, where γ = 1/√(1−v²/c²)"
+          },
+          {
+            "step": "Substitution",
+            "mark_award": 0.5,
+            "content": "γ = 1/√(1−0.20²) = 1/√0.96 ≈ 1.0206; t ≈ 1.0206×20.0"
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "t ≈ 20.4 s (option D). Check: Earth measures a longer time."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Using t = t0/γ instead of t = γt0",
+          "Using v = 0.20c without squaring when finding γ"
+        ]
+      }
+    }
+  ]
+}

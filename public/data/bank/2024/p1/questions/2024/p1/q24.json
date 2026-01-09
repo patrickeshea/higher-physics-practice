@@ -1,0 +1,71 @@
+{
+  "source": {
+    "authority": "SQA",
+    "qualification_level": "Higher",
+    "subject": "Physics",
+    "year": 2024,
+    "paper": 1,
+    "component": "Multiple Choice",
+    "question_paper_pdf": "NH_Physics_Paper1-Multiple-choice_2024.pdf",
+    "marking_instructions_pdf": "mi_NH_Physics_Paper-1-Multiple-choice_2024.pdf"
+  },
+  "questions": [
+    {
+      "id": "2024-P1-Q24",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Electricity",
+      "topic": "Semiconductors",
+      "subtopics": [
+        "Temperature effects",
+        "Charge carriers"
+      ],
+      "prompt": {
+        "stem": "An increase in the temperature of a semiconductor",
+        "options": [
+          "A increases its conductivity by allowing more electrons to reach the conduction band",
+          "B increases its conductivity by increasing the band gap between the valence band and the conduction band",
+          "C decreases its conductivity by allowing more electrons to reach the conduction band",
+          "D decreases its conductivity by allowing fewer electrons to reach the conduction band",
+          "E has no effect on its conductivity."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "A"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Relate temperature to the number of charge carriers in a semiconductor."
+        ],
+        "level2": [
+          "Higher temperature promotes more electrons into the conduction band, increasing carrier concentration and conductivity."
+        ],
+        "level3": [
+          {
+            "step": "Carrier concentration",
+            "mark_award": 0.5,
+            "content": "Heating gives electrons energy to cross the band gap into the conduction band."
+          },
+          {
+            "step": "Effect on conductivity",
+            "mark_award": 0.5,
+            "content": "More free charge carriers → higher conductivity (lower resistance)."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "Option A."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Assuming higher temperature always increases resistance (metals)",
+          "Thinking the band gap increases with temperature in this course model"
+        ]
+      }
+    }
+  ]
+}

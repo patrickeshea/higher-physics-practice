@@ -1,0 +1,72 @@
+{
+  "source": {
+    "authority": "SQA",
+    "qualification_level": "Higher",
+    "subject": "Physics",
+    "year": 2024,
+    "paper": 1,
+    "component": "Multiple Choice",
+    "question_paper_pdf": "NH_Physics_Paper1-Multiple-choice_2024.pdf",
+    "marking_instructions_pdf": "mi_NH_Physics_Paper-1-Multiple-choice_2024.pdf"
+  },
+  "questions": [
+    {
+      "id": "2024-P1-Q05",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Energy",
+      "subtopics": [
+        "Gravitational potential energy",
+        "Power",
+        "Mass flow rate"
+      ],
+      "prompt": {
+        "stem": "In a hydroelectric power station water flows from a reservoir through turbines at a rate of 4.5 × 106 kg per minute. The reservoir is 150 m above the turbines. The total power delivered by the water in falling from the reservoir to the turbines is",
+        "options": [
+          "A   3.0 × 104 W",
+          "B   7.5 × 104 W",
+          "C   1.1 × 108 W",
+          "D   6.6 × 109 W",
+          "E 4.0 × 1012 W."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "C"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Identify the relationship between power, mass flow rate and change in gravitational potential energy."
+        ],
+        "level2": [
+          "Convert mass per minute to mass per second, then use P = ṁgh."
+        ],
+        "level3": [
+          {
+            "step": "Formula",
+            "mark_award": 0.5,
+            "content": "Power from falling water: P = ṁ g h"
+          },
+          {
+            "step": "Substitution",
+            "mark_award": 0.5,
+            "content": "ṁ = 4.5×10⁶/60 = 7.5×10⁴ kg s−1; P = (7.5×10⁴)(9.8)(150)"
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "P ≈ 1.10×10⁸ W (option C). Unit check: (kg s−1)(m s−2)(m)=kg m² s−3=W."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Forgetting to convert kg per minute to kg s−1",
+          "Using g = 10 or omitting g entirely"
+        ]
+      }
+    }
+  ]
+}

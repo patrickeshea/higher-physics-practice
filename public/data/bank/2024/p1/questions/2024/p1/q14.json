@@ -1,0 +1,77 @@
+{
+  "source": {
+    "authority": "SQA",
+    "qualification_level": "Higher",
+    "subject": "Physics",
+    "year": 2024,
+    "paper": 1,
+    "component": "Multiple Choice",
+    "question_paper_pdf": "NH_Physics_Paper1-Multiple-choice_2024.pdf",
+    "marking_instructions_pdf": "mi_NH_Physics_Paper-1-Multiple-choice_2024.pdf"
+  },
+  "questions": [
+    {
+      "id": "2024-P1-Q14",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Particles and Waves",
+      "topic": "Measurement and uncertainty",
+      "subtopics": [
+        "Systematic uncertainty",
+        "Irradiance and distance"
+      ],
+      "prompt": {
+        "stem": "A student carries out an experiment to investigate how irradiance of light varies with distance. A small lamp is placed at a distance d from a light meter. The irradiance I at this distance is displayed on the light meter. This measurement is repeated for a range of different distances. The student uses these results to plot the graph shown. The graph indicates that there is a systematic uncertainty in the experiment. Which of the following alterations would be most likely to reduce the systematic uncertainty in this experiment?",
+        "options": [
+          "A Repeating the experiment in a darkened room",
+          "B Repeating the readings at each distance and calculating averages",
+          "C Decreasing the brightness of the lamp",
+          "D Replacing the small lamp with a larger lamp",
+          "E Increasing the range of distances"
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "src": "images/2024/p1/2024-P1-Q14_fig1.png",
+            "alt": "graph of I against 1/d² with offset"
+          }
+        ]
+      },
+      "answer": {
+        "mcq_key": "A"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Identify what could cause a consistent offset in irradiance readings."
+        ],
+        "level2": [
+          "Ambient/background light adds a constant to all readings (systematic). Reduce it by removing background light."
+        ],
+        "level3": [
+          {
+            "step": "Identify systematic source",
+            "mark_award": 0.5,
+            "content": "A non-zero reading when I should be zero suggests background/ambient light or zero error."
+          },
+          {
+            "step": "Remedy",
+            "mark_award": 0.5,
+            "content": "Reduce background light to remove the constant offset."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "Repeat in a darkened room (option A)."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Confusing random with systematic uncertainty",
+          "Thinking repeating readings removes systematic effects"
+        ]
+      }
+    }
+  ]
+}

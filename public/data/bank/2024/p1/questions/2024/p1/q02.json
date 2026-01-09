@@ -1,0 +1,77 @@
+{
+  "source": {
+    "authority": "SQA",
+    "qualification_level": "Higher",
+    "subject": "Physics",
+    "year": 2024,
+    "paper": 1,
+    "component": "Multiple Choice",
+    "question_paper_pdf": "NH_Physics_Paper1-Multiple-choice_2024.pdf",
+    "marking_instructions_pdf": "mi_NH_Physics_Paper-1-Multiple-choice_2024.pdf"
+  },
+  "questions": [
+    {
+      "id": "2024-P1-Q02",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Kinematics",
+      "subtopics": [
+        "Displacement–time graphs",
+        "Motion under gravity"
+      ],
+      "prompt": {
+        "stem": "A ball is thrown vertically upwards and returns to its original position. Neglecting air resistance, which displacement‑time (s-t) graph represents its motion?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "src": "images/2024/p1/2024-P1-Q02_fig1.png",
+            "alt": "five displacement–time graphs"
+          }
+        ]
+      },
+      "answer": {
+        "mcq_key": "A"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Recall that the gradient of an s–t graph is velocity."
+        ],
+        "level2": [
+          "Velocity decreases linearly to zero at the top, then increases in magnitude downward; so s–t must be a concave-down parabola returning to the start."
+        ],
+        "level3": [
+          {
+            "step": "Key idea",
+            "mark_award": 0.5,
+            "content": "s–t gradient = v; acceleration is constant and negative (−g)."
+          },
+          {
+            "step": "Shape",
+            "mark_award": 0.5,
+            "content": "Constant negative acceleration → s–t is a downward-opening parabola with a turning point at maximum height."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "Select the graph that rises, flattens to zero gradient at the top, then returns symmetrically to the start (option A)."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Choosing a graph with constant gradient (constant velocity)",
+          "Confusing s–t with v–t or a–t graphs"
+        ]
+      }
+    }
+  ]
+}

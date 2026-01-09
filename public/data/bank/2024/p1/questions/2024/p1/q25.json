@@ -1,0 +1,77 @@
+{
+  "source": {
+    "authority": "SQA",
+    "qualification_level": "Higher",
+    "subject": "Physics",
+    "year": 2024,
+    "paper": 1,
+    "component": "Multiple Choice",
+    "question_paper_pdf": "NH_Physics_Paper1-Multiple-choice_2024.pdf",
+    "marking_instructions_pdf": "mi_NH_Physics_Paper-1-Multiple-choice_2024.pdf"
+  },
+  "questions": [
+    {
+      "id": "2024-P1-Q25",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Electricity",
+      "topic": "Electronics",
+      "subtopics": [
+        "Diodes and LEDs",
+        "AC supply behaviour"
+      ],
+      "prompt": {
+        "stem": "A student connects four identical red light emitting diodes (LEDs) to a 2 V rms AC supply as shown. Which of the LEDs P, Q, R, and S will emit light?",
+        "options": [
+          "A P only",
+          "B Q only",
+          "C P and Q only",
+          "D P and R only",
+          "E Q and S only"
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "src": "images/2024/p1/2024-P1-Q25_fig1.png",
+            "alt": "LED circuit connected to 2 V rms AC supply"
+          }
+        ]
+      },
+      "answer": {
+        "mcq_key": "C"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Recall that an LED (diode) only conducts when forward-biased."
+        ],
+        "level2": [
+          "On AC, LEDs that are forward-biased on either half-cycle can emit (they flash at mains frequency, perceived as on). Determine which branches allow forward bias."
+        ],
+        "level3": [
+          {
+            "step": "Forward bias condition",
+            "mark_award": 0.5,
+            "content": "LED emits when current flows in its forward direction; reverse bias blocks current."
+          },
+          {
+            "step": "AC halves",
+            "mark_award": 0.5,
+            "content": "On each half-cycle, only the LED(s) oriented forward for that polarity will conduct."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "From the circuit, LEDs P and Q emit → option C."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Assuming LEDs conduct in both directions on AC",
+          "Ignoring that different LEDs may be reverse-biased on each half-cycle"
+        ]
+      }
+    }
+  ]
+}

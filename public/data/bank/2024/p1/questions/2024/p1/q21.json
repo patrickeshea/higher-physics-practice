@@ -1,0 +1,71 @@
+{
+  "source": {
+    "authority": "SQA",
+    "qualification_level": "Higher",
+    "subject": "Physics",
+    "year": 2024,
+    "paper": 1,
+    "component": "Multiple Choice",
+    "question_paper_pdf": "NH_Physics_Paper1-Multiple-choice_2024.pdf",
+    "marking_instructions_pdf": "mi_NH_Physics_Paper-1-Multiple-choice_2024.pdf"
+  },
+  "questions": [
+    {
+      "id": "2024-P1-Q21",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Electricity",
+      "topic": "Capacitors",
+      "subtopics": [
+        "Charge and current",
+        "Energy stored in a capacitor"
+      ],
+      "prompt": {
+        "stem": "A capacitor is initially uncharged. The capacitor is now charged for 20 s using a supply that provides a constant current of 0.10 mA. The potential difference across the capacitor is now 12 V. The energy stored in the capacitor is",
+        "options": [
+          "A 0.06 mJ",
+          "B 12.0 mJ",
+          "C 14.4 mJ",
+          "D 24.0 mJ",
+          "E 28.8 mJ."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "B"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Find the charge delivered to the capacitor using Q = It."
+        ],
+        "level2": [
+          "Use energy E = ½QV (or find C from Q=CV then use ½CV²)."
+        ],
+        "level3": [
+          {
+            "step": "Charge from current",
+            "mark_award": 0.5,
+            "content": "I = 0.10 mA = 1.0×10−4 A, so Q = It = (1.0×10−4)(20) = 2.0×10−3 C."
+          },
+          {
+            "step": "Energy formula",
+            "mark_award": 0.5,
+            "content": "E = ½QV = 0.5×(2.0×10−3)×12."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "E = 1.2×10−2 J = 12.0 mJ (option B). Unit check: C·V = J."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Forgetting Q = It and using I in mA without converting to A",
+          "Using E = QV instead of E = ½QV (or ½CV²)"
+        ]
+      }
+    }
+  ]
+}

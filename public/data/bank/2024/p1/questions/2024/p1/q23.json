@@ -1,0 +1,77 @@
+{
+  "source": {
+    "authority": "SQA",
+    "qualification_level": "Higher",
+    "subject": "Physics",
+    "year": 2024,
+    "paper": 1,
+    "component": "Multiple Choice",
+    "question_paper_pdf": "NH_Physics_Paper1-Multiple-choice_2024.pdf",
+    "marking_instructions_pdf": "mi_NH_Physics_Paper-1-Multiple-choice_2024.pdf"
+  },
+  "questions": [
+    {
+      "id": "2024-P1-Q23",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Electricity",
+      "topic": "Semiconductors",
+      "subtopics": [
+        "Band theory",
+        "Conductors, insulators and semiconductors"
+      ],
+      "prompt": {
+        "stem": "Solids can be categorised as conductors, insulators, or semiconductors. The diagrams show the valence band and conduction bands of three solids X, Y, and Z. Which row in the table shows the letters that represent a conductor, an insulator, and a semiconductor?",
+        "options": [
+          "A X Y Z",
+          "B Z X Y",
+          "C Y Z X",
+          "D X Z Y",
+          "E Z Y X"
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "src": "images/2024/p1/2024-P1-Q23_fig1.png",
+            "alt": "band diagrams for solids X, Y, Z"
+          }
+        ]
+      },
+      "answer": {
+        "mcq_key": "D"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Use band theory: compare the gap/overlap between valence and conduction bands."
+        ],
+        "level2": [
+          "Conductor: overlapping bands; Insulator: large band gap; Semiconductor: small band gap."
+        ],
+        "level3": [
+          {
+            "step": "Identify conductor",
+            "mark_award": 0.5,
+            "content": "Conductor has valence and conduction bands overlapping."
+          },
+          {
+            "step": "Identify insulator vs semiconductor",
+            "mark_award": 0.5,
+            "content": "Insulator has a large band gap; semiconductor has a small gap."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "From the diagrams, the correct row is option D."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Mixing up conductor and semiconductor band gaps",
+          "Not recognising overlap indicates a conductor"
+        ]
+      }
+    }
+  ]
+}
