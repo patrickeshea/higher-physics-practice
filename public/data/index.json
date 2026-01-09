@@ -2,7 +2,7 @@
   "banks": [
     {
       "id": "2024-p1",
-      "path": "data/bank/2024/p1/index.json",
+      "path": "data/bank/2024/p1/bank.json",
       "paper": 1,
       "year": 2024
     }
