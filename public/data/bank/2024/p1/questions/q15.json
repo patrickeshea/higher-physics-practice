@@ -1,0 +1,71 @@
+{
+  "source": {
+    "authority": "SQA",
+    "qualification_level": "Higher",
+    "subject": "Physics",
+    "year": 2024,
+    "paper": 1,
+    "component": "Multiple Choice",
+    "question_paper_pdf": "NH_Physics_Paper1-Multiple-choice_2024.pdf",
+    "marking_instructions_pdf": "mi_NH_Physics_Paper-1-Multiple-choice_2024.pdf"
+  },
+  "questions": [
+    {
+      "id": "2024-P1-Q15",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Particles and Waves",
+      "topic": "Waves",
+      "subtopics": [
+        "Coherence",
+        "Interference conditions"
+      ],
+      "prompt": {
+        "stem": "A group of students make the following statements about coherent waves: I Coherent waves have a constant phase relationship. II Coherent waves have the same frequency. III Coherent waves have the same speed. Which of the statements is/are correct?",
+        "options": [
+          "A I only",
+          "B III only",
+          "C I and II only",
+          "D II and III only",
+          "E I, II and III"
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "E"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Recall the definition of coherence used for interference."
+        ],
+        "level2": [
+          "Coherent sources: constant phase difference and same frequency; speed depends on medium, not coherence."
+        ],
+        "level3": [
+          {
+            "step": "Definition",
+            "mark_award": 0.5,
+            "content": "Coherent waves maintain a constant phase relationship and have the same frequency."
+          },
+          {
+            "step": "Assess III",
+            "mark_award": 0.5,
+            "content": "Same speed is not required; speed depends on the medium."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "Statements I and II only are correct → option C."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Including same speed as a requirement for coherence",
+          "Missing that constant phase relationship and same frequency are the defining features"
+        ]
+      }
+    }
+  ]
+}

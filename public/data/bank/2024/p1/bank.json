@@ -1,0 +1,1511 @@
+{
+  "source": {
+    "authority": "SQA",
+    "qualification_level": "Higher",
+    "subject": "Physics",
+    "year": 2024,
+    "paper": 1,
+    "component": "Multiple Choice",
+    "question_paper_pdf": "NH_Physics_Paper1-Multiple-choice_2024.pdf",
+    "marking_instructions_pdf": "mi_NH_Physics_Paper-1-Multiple-choice_2024.pdf"
+  },
+  "questions": [
+    {
+      "id": "2024-P1-Q01",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Kinematics",
+      "subtopics": [
+        "Constant acceleration",
+        "SUVAT equations"
+      ],
+      "prompt": {
+        "stem": "A cyclist travelling along a straight track accelerates at 1.2 m s−2. The speed of the cyclist increases from 4.0 m s−1 to 7.5 m s−1. The distance travelled by the cyclist during this acceleration is",
+        "options": [
+          "A 1.5 m",
+          "B 17 m",
+          "C 20 m",
+          "D 30 m",
+          "E 34 m."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "B"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Identify a constant-acceleration equation linking u, v, a and s."
+        ],
+        "level2": [
+          "Use v² = u² + 2as and rearrange to s = (v² − u²)/(2a)."
+        ],
+        "level3": [
+          {
+            "step": "Formula",
+            "mark_award": 0.5,
+            "content": "v² = u² + 2as"
+          },
+          {
+            "step": "Substitution",
+            "mark_award": 0.5,
+            "content": "s = ((7.5)² − (4.0)²)/(2×1.2)"
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "s ≈ 16.9 m → 17 m (option B). Unit check: (m² s−2)/(m s−2)=m."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Forgetting to square speeds in v² = u² + 2as",
+          "Mixing up u and v or using v = u + at without finding t"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q02",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Kinematics",
+      "subtopics": [
+        "Displacement–time graphs",
+        "Motion under gravity"
+      ],
+      "prompt": {
+        "stem": "A ball is thrown vertically upwards and returns to its original position. Neglecting air resistance, which displacement‑time (s-t) graph represents its motion?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "src": "images/2024/p1/2024-P1-Q02_fig1.png",
+            "alt": "five displacement–time graphs"
+          }
+        ]
+      },
+      "answer": {
+        "mcq_key": "A"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Recall that the gradient of an s–t graph is velocity."
+        ],
+        "level2": [
+          "Velocity decreases linearly to zero at the top, then increases in magnitude downward; so s–t must be a concave-down parabola returning to the start."
+        ],
+        "level3": [
+          {
+            "step": "Key idea",
+            "mark_award": 0.5,
+            "content": "s–t gradient = v; acceleration is constant and negative (−g)."
+          },
+          {
+            "step": "Shape",
+            "mark_award": 0.5,
+            "content": "Constant negative acceleration → s–t is a downward-opening parabola with a turning point at maximum height."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "Select the graph that rises, flattens to zero gradient at the top, then returns symmetrically to the start (option A)."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Choosing a graph with constant gradient (constant velocity)",
+          "Confusing s–t with v–t or a–t graphs"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q03",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Forces",
+      "subtopics": [
+        "Equilibrium",
+        "Resolving forces",
+        "Tension"
+      ],
+      "prompt": {
+        "stem": "A box is suspended from a ceiling by a rope. A horizontal force F is acting on the box. The box is held stationary as shown. The weight of the box is 4.9 N. The tension T in the rope is",
+        "options": [
+          "A 1.7 N",
+          "B 4.6 N",
+          "C 4.9 N",
+          "D 5.2 N",
+          "E 14 N."
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "src": "images/2024/p1/2024-P1-Q03_fig1.png",
+            "alt": "box and rope at 20° with horizontal force"
+          }
+        ]
+      },
+      "answer": {
+        "mcq_key": "D"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Use equilibrium: resultant force is zero in both horizontal and vertical directions."
+        ],
+        "level2": [
+          "Resolve the tension into components. The vertical component must balance the weight: T cos 20° = 4.9 N."
+        ],
+        "level3": [
+          {
+            "step": "Equilibrium condition",
+            "mark_award": 0.5,
+            "content": "ΣF_vertical = 0 → T cos 20° = W = 4.9 N"
+          },
+          {
+            "step": "Rearrangement",
+            "mark_award": 0.5,
+            "content": "T = 4.9 / cos 20°"
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "T ≈ 5.2 N (option D). Dimensional check: N/N is dimensionless so T in N."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Using sin and cos the wrong way round for the 20° angle",
+          "Assuming T equals weight when there is also a horizontal force"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q04",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Projectile motion",
+      "subtopics": [
+        "Velocity components",
+        "Air resistance",
+        "Terminal velocity"
+      ],
+      "prompt": {
+        "stem": "A ball is thrown horizontally over the edge of a cliff. A group of students draw three velocity‑time (v-t) graphs to represent the motion of the ball, when air resistance is taken into account. Which row in the table shows the graphs that represent the horizontal component of the velocity and the vertical component of the velocity?",
+        "options": [
+          "A graph X graph Y",
+          "B graph X graph Z",
+          "C graph Y graph X",
+          "D graph Y graph Z",
+          "E graph Z graph X"
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "src": "images/2024/p1/2024-P1-Q04_fig1.png",
+            "alt": "three v–t graphs X, Y and Z"
+          }
+        ]
+      },
+      "answer": {
+        "mcq_key": "A"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Consider separately the horizontal and vertical components of motion."
+        ],
+        "level2": [
+          "With air resistance, horizontal velocity decreases towards 0; vertical velocity increases then approaches terminal velocity (curve levelling off)."
+        ],
+        "level3": [
+          {
+            "step": "Horizontal component",
+            "mark_award": 0.5,
+            "content": "Air resistance opposes motion → horizontal speed decreases with time."
+          },
+          {
+            "step": "Vertical component",
+            "mark_award": 0.5,
+            "content": "Downward speed increases but tends to a constant (terminal velocity) as resistive force grows."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "Match these behaviours to the labelled graphs; option A corresponds to horizontal = graph X and vertical = graph Y."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Assuming horizontal velocity stays constant with air resistance",
+          "Not recognising vertical velocity approaches a terminal value"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q05",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Energy",
+      "subtopics": [
+        "Gravitational potential energy",
+        "Power",
+        "Mass flow rate"
+      ],
+      "prompt": {
+        "stem": "In a hydroelectric power station water flows from a reservoir through turbines at a rate of 4.5 × 106 kg per minute. The reservoir is 150 m above the turbines. The total power delivered by the water in falling from the reservoir to the turbines is",
+        "options": [
+          "A   3.0 × 104 W",
+          "B   7.5 × 104 W",
+          "C   1.1 × 108 W",
+          "D   6.6 × 109 W",
+          "E 4.0 × 1012 W."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "C"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Identify the relationship between power, mass flow rate and change in gravitational potential energy."
+        ],
+        "level2": [
+          "Convert mass per minute to mass per second, then use P = ṁgh."
+        ],
+        "level3": [
+          {
+            "step": "Formula",
+            "mark_award": 0.5,
+            "content": "Power from falling water: P = ṁ g h"
+          },
+          {
+            "step": "Substitution",
+            "mark_award": 0.5,
+            "content": "ṁ = 4.5×10⁶/60 = 7.5×10⁴ kg s−1; P = (7.5×10⁴)(9.8)(150)"
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "P ≈ 1.10×10⁸ W (option C). Unit check: (kg s−1)(m s−2)(m)=kg m² s−3=W."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Forgetting to convert kg per minute to kg s−1",
+          "Using g = 10 or omitting g entirely"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q06",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Momentum",
+      "subtopics": [
+        "Conservation of momentum",
+        "Inelastic collision"
+      ],
+      "prompt": {
+        "stem": "Two trolleys move along a level bench as shown. The trolleys collide and stick together. They continue to move along the bench. The velocity of the trolleys immediately after the collision is",
+        "options": [
+          "A 0.50 m s−1",
+          "B  1.3 m s−1",
+          "C  2.0 m s−1",
+          "D  2.7 m s−1",
+          "E  8.0 m s−1."
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "src": "images/2024/p1/2024-P1-Q06_fig1.png",
+            "alt": "two trolleys with masses and velocities"
+          }
+        ]
+      },
+      "answer": {
+        "mcq_key": "C"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Use conservation of momentum: total momentum before = total momentum after."
+        ],
+        "level2": [
+          "Compute p_before = m1v1 + m2v2, then divide by total mass (m1+m2) for final v."
+        ],
+        "level3": [
+          {
+            "step": "Momentum conservation",
+            "mark_award": 0.5,
+            "content": "m1v1 + m2v2 = (m1+m2)v"
+          },
+          {
+            "step": "Substitution",
+            "mark_award": 0.5,
+            "content": "(2.0)(5.0) + (6.0)(1.0) = 8.0 v"
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "v = 16/8 = 2.0 m s−1 (option C). Direction is same as initial motion shown."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Adding speeds without using momentum",
+          "Forgetting the trolleys stick together so final mass is combined"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q07",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Special relativity",
+      "subtopics": [
+        "Time dilation",
+        "Lorentz factor"
+      ],
+      "prompt": {
+        "stem": "A spacecraft is travelling at a speed of 0.20c relative to the Earth. The spacecraft emits a signal for 20.0 s as measured in the frame of reference of the spacecraft. An observer on Earth measures the duration of the signal as",
+        "options": [
+          "A 19.2 s",
+          "B 19.6 s",
+          "C 20.0 s",
+          "D 20.4 s",
+          "E 20.8 s."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "D"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Identify the time dilation relationship between proper time and dilated time."
+        ],
+        "level2": [
+          "Compute γ = 1/√(1−v²/c²) for v = 0.20c, then t = γ t0."
+        ],
+        "level3": [
+          {
+            "step": "Formula",
+            "mark_award": 0.5,
+            "content": "t = γ t0, where γ = 1/√(1−v²/c²)"
+          },
+          {
+            "step": "Substitution",
+            "mark_award": 0.5,
+            "content": "γ = 1/√(1−0.20²) = 1/√0.96 ≈ 1.0206; t ≈ 1.0206×20.0"
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "t ≈ 20.4 s (option D). Check: Earth measures a longer time."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Using t = t0/γ instead of t = γt0",
+          "Using v = 0.20c without squaring when finding γ"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q08",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Special relativity",
+      "subtopics": [
+        "Length contraction",
+        "Lorentz factor"
+      ],
+      "prompt": {
+        "stem": "The Queensferry Crossing has a length of 2700 m as measured by a stationary observer on Earth. A spaceship travels past Earth at a constant speed of 1.80 × 108 m s−1 relative to Earth. The length of the Queensferry Crossing as measured by an observer on the spaceship is",
+        "options": [
+          "A 1100 m",
+          "B 1700 m",
+          "C 2200 m",
+          "D 3400 m",
+          "E 4300 m."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "C"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Identify the length contraction relationship for an object moving relative to an observer."
+        ],
+        "level2": [
+          "Find γ for v = 1.80×10⁸ m s−1, then use L = L0/γ."
+        ],
+        "level3": [
+          {
+            "step": "Formula",
+            "mark_award": 0.5,
+            "content": "L = L0/γ, γ = 1/√(1−v²/c²)"
+          },
+          {
+            "step": "Substitution",
+            "mark_award": 0.5,
+            "content": "v/c = (1.80×10⁸)/(3.00×10⁸)=0.60 → γ = 1/√(1−0.60²)=1/0.8=1.25"
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "L = 2700/1.25 = 2160 m ≈ 2200 m (option C). Shorter length is expected."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Using L = γL0 instead of L = L0/γ",
+          "Using c = 3.0×10⁸ but not converting v/c correctly"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q09",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Astrophysics",
+      "subtopics": [
+        "Blackbody radiation",
+        "Wien's displacement law",
+        "Interpreting spectra"
+      ],
+      "prompt": {
+        "stem": "The graph shows how the energy emitted per second per unit area varies with the wavelength of the radiation for four stars W, X, Y, and Z. A student makes the following statements based on the information shown in the graph: I Star Z is hotter than star W. II The peak frequency of radiation emitted is greatest for star W. III Star Y emits more energy per second per unit area than star X. Which of the statements is/are correct?",
+        "options": [
+          "A I only",
+          "B II only",
+          "C III only",
+          "D I and III only",
+          "E I, II and III"
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "src": "images/2024/p1/2024-P1-Q09_fig1.png",
+            "alt": "blackbody curves for stars W, X, Y, Z"
+          }
+        ]
+      },
+      "answer": {
+        "mcq_key": "D"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Use Wien’s displacement law: hotter objects peak at shorter wavelength (higher frequency)."
+        ],
+        "level2": [
+          "Compare peak positions (wavelength) for temperature, and compare curve heights for emitted energy per unit area."
+        ],
+        "level3": [
+          {
+            "step": "Temperature comparison",
+            "mark_award": 0.5,
+            "content": "Shorter peak wavelength → higher temperature."
+          },
+          {
+            "step": "Energy comparison",
+            "mark_award": 0.5,
+            "content": "At a given wavelength, higher curve means greater energy emitted per second per unit area."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "From the graph, statements I and III are correct while II is not → option D."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Confusing peak wavelength with peak frequency direction",
+          "Assuming taller peak always means hotter rather than looking at peak position"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q10",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Particles and Waves",
+      "topic": "Particles",
+      "subtopics": [
+        "Fermions and bosons",
+        "Standard Model"
+      ],
+      "prompt": {
+        "stem": "Which of the following particles is a fermion?",
+        "options": [
+          "A W-boson",
+          "B Z-boson",
+          "C Photon",
+          "D Gluon",
+          "E Muon"
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "E"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Recall: fermions are matter particles (quarks and leptons), bosons are force carriers."
+        ],
+        "level2": [
+          "Classify each option: W, Z, photon and gluon are bosons; muon is a lepton."
+        ],
+        "level3": [
+          {
+            "step": "Classification",
+            "mark_award": 0.5,
+            "content": "Leptons (e.g., electron, muon) are fermions; gauge bosons are bosons."
+          },
+          {
+            "step": "Elimination",
+            "mark_award": 0.5,
+            "content": "W, Z, photon, gluon are force carriers (bosons)."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "Muon is a lepton (fermion) → option E."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Thinking all force carriers are fermions",
+          "Confusing leptons with bosons"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q11",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Particles and Waves",
+      "topic": "Nuclear physics",
+      "subtopics": [
+        "Beta decay",
+        "Neutrino"
+      ],
+      "prompt": {
+        "stem": "The following statement represents beta decay. 11 0 0 1 1 e n p eν    Beta decay provided the first evidence for the existence of the",
+        "options": [
+          "A quark",
+          "B neutrino",
+          "C electron",
+          "D proton",
+          "E neutron."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "B"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Recall what was 'missing' in beta decay observations that led to a new particle being proposed."
+        ],
+        "level2": [
+          "Energy and momentum did not appear conserved unless a neutral, low-mass particle was emitted."
+        ],
+        "level3": [
+          {
+            "step": "Conservation issue",
+            "mark_award": 0.5,
+            "content": "Beta decay showed a continuous beta energy spectrum, suggesting missing energy/momentum."
+          },
+          {
+            "step": "Inference",
+            "mark_award": 0.5,
+            "content": "A neutral particle was proposed to carry away the missing energy/momentum."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "That particle is the neutrino → option B."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Choosing electron because it is emitted",
+          "Not recognising neutrino was postulated to conserve energy/momentum"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q12",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Particles and Waves",
+      "topic": "Nuclear physics",
+      "subtopics": [
+        "Nuclear equations",
+        "Beta-minus decay"
+      ],
+      "prompt": {
+        "stem": "Uranium‑239 (239 92U) undergoes decay by emitting a beta particle. The nucleus formed as a result of this decay also undergoes decay by emitting a beta particle to form nucleus X. Nucleus X is",
+        "options": [
+          "A 231 88Ra",
+          "B 235 90Th",
+          "C 239 90Th",
+          "D 239 93Np",
+          "E 239 94Pu."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "E"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Recall what changes in A and Z during beta-minus decay."
+        ],
+        "level2": [
+          "Each beta-minus decay keeps A the same and increases Z by 1. Apply twice."
+        ],
+        "level3": [
+          {
+            "step": "Rule",
+            "mark_award": 0.5,
+            "content": "β− decay: A unchanged, Z increases by 1."
+          },
+          {
+            "step": "Apply twice",
+            "mark_award": 0.5,
+            "content": "23992U → 23993Np → 23994Pu"
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "Nucleus X is 23994Pu (option E)."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Changing the mass number during beta decay",
+          "Decreasing proton number for beta-minus decay"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q13",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Particles and Waves",
+      "topic": "Particles",
+      "subtopics": [
+        "Mass–energy equivalence",
+        "Nuclear reactions"
+      ],
+      "prompt": {
+        "stem": "The following statement represents a nuclear reaction. 12 4 16 6 2 C He O8   γ The total mass of the particles before the reaction is 26.572 × 10−27 kg. The total mass of the particles after the reaction is 26.560 × 10−27 kg. The energy released in this reaction is",
+        "options": [
+          "A 1.20 × 10−29 J",
+          "B 3.60 × 10−21 J",
+          "C 5.40 × 10−13 J",
+          "D 1.08 × 10−12 J",
+          "E   2.39 × 10−9 J."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "D"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Use mass defect and E = Δmc²."
+        ],
+        "level2": [
+          "Find Δm = (mass before − mass after), then multiply by c²."
+        ],
+        "level3": [
+          {
+            "step": "Mass defect",
+            "mark_award": 0.5,
+            "content": "Δm = (26.572 − 26.560)×10−27 kg = 0.012×10−27 kg = 1.2×10−29 kg"
+          },
+          {
+            "step": "Energy",
+            "mark_award": 0.5,
+            "content": "E = Δmc² = (1.2×10−29)(3.00×10⁸)²"
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "E = 1.08×10−12 J (option D). Unit check: kg·(m² s−2)=J."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Using Δm without converting to kg properly (power of 10 error)",
+          "Using E = mc instead of E = mc²"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q14",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Particles and Waves",
+      "topic": "Measurement and uncertainty",
+      "subtopics": [
+        "Systematic uncertainty",
+        "Irradiance and distance"
+      ],
+      "prompt": {
+        "stem": "A student carries out an experiment to investigate how irradiance of light varies with distance. A small lamp is placed at a distance d from a light meter. The irradiance I at this distance is displayed on the light meter. This measurement is repeated for a range of different distances. The student uses these results to plot the graph shown. The graph indicates that there is a systematic uncertainty in the experiment. Which of the following alterations would be most likely to reduce the systematic uncertainty in this experiment?",
+        "options": [
+          "A Repeating the experiment in a darkened room",
+          "B Repeating the readings at each distance and calculating averages",
+          "C Decreasing the brightness of the lamp",
+          "D Replacing the small lamp with a larger lamp",
+          "E Increasing the range of distances"
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "src": "images/2024/p1/2024-P1-Q14_fig1.png",
+            "alt": "graph of I against 1/d² with offset"
+          }
+        ]
+      },
+      "answer": {
+        "mcq_key": "A"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Identify what could cause a consistent offset in irradiance readings."
+        ],
+        "level2": [
+          "Ambient/background light adds a constant to all readings (systematic). Reduce it by removing background light."
+        ],
+        "level3": [
+          {
+            "step": "Identify systematic source",
+            "mark_award": 0.5,
+            "content": "A non-zero reading when I should be zero suggests background/ambient light or zero error."
+          },
+          {
+            "step": "Remedy",
+            "mark_award": 0.5,
+            "content": "Reduce background light to remove the constant offset."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "Repeat in a darkened room (option A)."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Confusing random with systematic uncertainty",
+          "Thinking repeating readings removes systematic effects"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q15",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Particles and Waves",
+      "topic": "Waves",
+      "subtopics": [
+        "Coherence",
+        "Interference conditions"
+      ],
+      "prompt": {
+        "stem": "A group of students make the following statements about coherent waves: I Coherent waves have a constant phase relationship. II Coherent waves have the same frequency. III Coherent waves have the same speed. Which of the statements is/are correct?",
+        "options": [
+          "A I only",
+          "B III only",
+          "C I and II only",
+          "D II and III only",
+          "E I, II and III"
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "E"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Recall the definition of coherence used for interference."
+        ],
+        "level2": [
+          "Coherent sources: constant phase difference and same frequency; speed depends on medium, not coherence."
+        ],
+        "level3": [
+          {
+            "step": "Definition",
+            "mark_award": 0.5,
+            "content": "Coherent waves maintain a constant phase relationship and have the same frequency."
+          },
+          {
+            "step": "Assess III",
+            "mark_award": 0.5,
+            "content": "Same speed is not required; speed depends on the medium."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "Statements I and II only are correct → option C."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Including same speed as a requirement for coherence",
+          "Missing that constant phase relationship and same frequency are the defining features"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q16",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Particles and Waves",
+      "topic": "Waves and photons",
+      "subtopics": [
+        "Absorption spectra",
+        "Electron energy levels"
+      ],
+      "prompt": {
+        "stem": "Dark lines in an absorption spectrum occur because",
+        "options": [
+          "A photons move from higher to lower energy levels emitting electrons",
+          "B photons move from lower to higher energy levels by absorbing electrons",
+          "C electrons move from lower to higher energy levels emitting photons",
+          "D electrons move from higher to lower energy levels emitting photons",
+          "E electrons move from lower to higher energy levels by absorbing photons."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "E"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Relate absorption lines to electron transitions in atoms."
+        ],
+        "level2": [
+          "Absorption occurs when photons are absorbed, promoting electrons to higher energy levels."
+        ],
+        "level3": [
+          {
+            "step": "Process",
+            "mark_award": 0.5,
+            "content": "Absorption lines occur at photon energies that match permitted electron transitions."
+          },
+          {
+            "step": "Transition",
+            "mark_award": 0.5,
+            "content": "Electrons absorb photons and move from lower to higher energy levels."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "Option E."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Mixing up emission and absorption processes",
+          "Reversing the direction of electron transitions"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q17",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Particles and Waves",
+      "topic": "Waves",
+      "subtopics": [
+        "Refraction",
+        "Refractive index"
+      ],
+      "prompt": {
+        "stem": "A ray of monochromatic light passes from air into diamond. The frequency of the light in air is 5.09 × 1014 Hz. The speed of this light in diamond is",
+        "options": [
+          "A 1.40 × 102 m s−1",
+          "B 1.70 × 106 m s−1",
+          "C 1.24 × 108 m s−1",
+          "D 3.00 × 108 m s−1",
+          "E 7.26 × 108 m s−1."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "C"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Use the refractive index relationship between speed in vacuum and speed in a medium."
+        ],
+        "level2": [
+          "For diamond, n = 2.42 (data sheet). Use v = c/n. Frequency stays the same but is not needed."
+        ],
+        "level3": [
+          {
+            "step": "Formula",
+            "mark_award": 0.5,
+            "content": "n = c/v → v = c/n"
+          },
+          {
+            "step": "Substitution",
+            "mark_award": 0.5,
+            "content": "v = (3.00×10⁸)/2.42"
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "v ≈ 1.24×10⁸ m s−1 (option C). Unit check: m s−1."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Thinking frequency changes in a new medium",
+          "Using v = fλ with wrong λ or not using refractive index"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q18",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Electricity",
+      "topic": "DC circuits",
+      "subtopics": [
+        "Series and parallel resistors",
+        "Potential difference"
+      ],
+      "prompt": {
+        "stem": "A circuit is set up as shown. The power supply has negligible internal resistance. The potential difference across the 60 Ω resistor is",
+        "options": [
+          "A 1.0 V",
+          "B 2.0 V",
+          "C 5.5 V",
+          "D 6.5 V",
+          "E 10 V."
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "src": "images/2024/p1/2024-P1-Q18_fig1.png",
+            "alt": "circuit with 20 Ω, 30 Ω, 60 Ω and 12 V supply"
+          }
+        ]
+      },
+      "answer": {
+        "mcq_key": "E"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Identify series and parallel parts of the circuit from the diagram."
+        ],
+        "level2": [
+          "Combine the 20 Ω and 30 Ω resistors in parallel to find an equivalent resistance, then use the potential divider across the series combination with the 60 Ω resistor."
+        ],
+        "level3": [
+          {
+            "step": "Equivalent resistance",
+            "mark_award": 0.5,
+            "content": "20 Ω and 30 Ω in parallel: R_p = (20×30)/(20+30) = 12 Ω."
+          },
+          {
+            "step": "Potential divider",
+            "mark_award": 0.5,
+            "content": "R_p (12 Ω) is in series with 60 Ω across 12 V, so V_60 = 12 × 60/(60+12)."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "V_60 = 10 V (option E). Unit check: volts."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Treating the 20 Ω and 30 Ω resistors as series instead of parallel",
+          "Forgetting to use a potential divider once the equivalent resistance is found"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q19",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Electricity",
+      "topic": "Power",
+      "subtopics": [
+        "Power in resistors",
+        "Using P = V²/R"
+      ],
+      "prompt": {
+        "stem": "A resistor of resistance 2.2 kΩ is rated at 0.25 W. The potential difference across the resistor when operating at its rated power is",
+        "options": [
+          "A  0.11 V",
+          "B   23 V",
+          "C   94 V",
+          "D  550 V",
+          "E 8800 V."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "B"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Use the power relationship linking P, V and R."
+        ],
+        "level2": [
+          "Rearrange P = V²/R to V = √(PR), converting 2.2 kΩ to 2200 Ω."
+        ],
+        "level3": [
+          {
+            "step": "Formula",
+            "mark_award": 0.5,
+            "content": "P = V²/R → V = √(PR)"
+          },
+          {
+            "step": "Substitution",
+            "mark_award": 0.5,
+            "content": "V = √(0.25×2200) = √550"
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "V ≈ 23.5 V → 23 V (option B). Unit check: √(W·Ω)=V."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Using P = VI without finding current",
+          "Forgetting to convert kΩ to Ω"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q20",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Electricity",
+      "topic": "Internal resistance",
+      "subtopics": [
+        "V–I characteristics",
+        "EMF and internal resistance",
+        "Short circuit current"
+      ],
+      "prompt": {
+        "stem": "A circuit is set up as shown. The resistance of the variable resistor is changed and the corresponding readings on the ammeter and voltmeter are used to produce the graph shown. A student makes the following statements based on this information: I The EMF of the battery is 12 V. II The internal resistance of the battery is 10 Ω. III The short circuit current is 1.2 A. Which of these statements is/are correct?",
+        "options": [
+          "A I only",
+          "B II only",
+          "C III only",
+          "D I and II only",
+          "E I, II and III"
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "src": "images/2024/p1/2024-P1-Q20_fig1.png",
+            "alt": "circuit and V–I graph"
+          }
+        ]
+      },
+      "answer": {
+        "mcq_key": "B"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Use the battery model V = E − Ir and interpret the straight-line V–I graph."
+        ],
+        "level2": [
+          "Find the gradient (−r) from two clear points on the graph, then find E using E = V + Ir at any point; short-circuit current is E/r."
+        ],
+        "level3": [
+          {
+            "step": "Gradient → internal resistance",
+            "mark_award": 0.5,
+            "content": "Using points (I=0.2 A, V=12 V) and (I=1.2 A, V=2 V): gradient = (2−12)/(1.2−0.2) = −10 V A−1, so r = 10 Ω."
+          },
+          {
+            "step": "EMF from line",
+            "mark_award": 0.5,
+            "content": "E = V + Ir. Using (0.2 A, 12 V): E = 12 + (0.2)(10) = 14 V, so statement I (12 V) is false."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "Short-circuit current I_sc = E/r = 14/10 = 1.4 A (not 1.2 A), so only statement II is correct → option B."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Assuming the y-intercept is 12 V without checking the line",
+          "Using the gradient sign incorrectly (r is the magnitude)",
+          "Taking the maximum plotted current as the short-circuit current"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q21",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Electricity",
+      "topic": "Capacitors",
+      "subtopics": [
+        "Charge and current",
+        "Energy stored in a capacitor"
+      ],
+      "prompt": {
+        "stem": "A capacitor is initially uncharged. The capacitor is now charged for 20 s using a supply that provides a constant current of 0.10 mA. The potential difference across the capacitor is now 12 V. The energy stored in the capacitor is",
+        "options": [
+          "A 0.06 mJ",
+          "B 12.0 mJ",
+          "C 14.4 mJ",
+          "D 24.0 mJ",
+          "E 28.8 mJ."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "B"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Find the charge delivered to the capacitor using Q = It."
+        ],
+        "level2": [
+          "Use energy E = ½QV (or find C from Q=CV then use ½CV²)."
+        ],
+        "level3": [
+          {
+            "step": "Charge from current",
+            "mark_award": 0.5,
+            "content": "I = 0.10 mA = 1.0×10−4 A, so Q = It = (1.0×10−4)(20) = 2.0×10−3 C."
+          },
+          {
+            "step": "Energy formula",
+            "mark_award": 0.5,
+            "content": "E = ½QV = 0.5×(2.0×10−3)×12."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "E = 1.2×10−2 J = 12.0 mJ (option B). Unit check: C·V = J."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Forgetting Q = It and using I in mA without converting to A",
+          "Using E = QV instead of E = ½QV (or ½CV²)"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q22",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Electricity",
+      "topic": "Capacitors",
+      "subtopics": [
+        "Charging curves",
+        "Time constant"
+      ],
+      "prompt": {
+        "stem": "A circuit is set up as shown. The capacitor is initially uncharged. Switch S is now closed and the capacitor charges. The graph shows how the charging current I in the circuit varies with time t. The capacitor is now replaced with an uncharged capacitor of greater capacitance. The same charging process is repeated with this capacitor. Which graph shows how the current I varies with time t as this capacitor charges?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "src": "images/2024/p1/2024-P1-Q22_fig1.png",
+            "alt": "charging circuit and current–time graph with options"
+          }
+        ]
+      },
+      "answer": {
+        "mcq_key": "C"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Recall how capacitance affects the time constant τ in an RC circuit."
+        ],
+        "level2": [
+          "For the same resistor and supply, initial current is the same but the decay is slower when C is larger (larger τ)."
+        ],
+        "level3": [
+          {
+            "step": "Initial current",
+            "mark_award": 0.5,
+            "content": "At t=0, the capacitor is uncharged and behaves like a short; I0 depends on V and R, not C."
+          },
+          {
+            "step": "Time constant",
+            "mark_award": 0.5,
+            "content": "τ = RC increases when C increases, so current decays more slowly."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "Choose the graph with the same initial current but a slower exponential decay (option C)."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Thinking a larger capacitance increases initial current",
+          "Thinking current reaches zero faster with larger capacitance"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q23",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Electricity",
+      "topic": "Semiconductors",
+      "subtopics": [
+        "Band theory",
+        "Conductors, insulators and semiconductors"
+      ],
+      "prompt": {
+        "stem": "Solids can be categorised as conductors, insulators, or semiconductors. The diagrams show the valence band and conduction bands of three solids X, Y, and Z. Which row in the table shows the letters that represent a conductor, an insulator, and a semiconductor?",
+        "options": [
+          "A X Y Z",
+          "B Z X Y",
+          "C Y Z X",
+          "D X Z Y",
+          "E Z Y X"
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "src": "images/2024/p1/2024-P1-Q23_fig1.png",
+            "alt": "band diagrams for solids X, Y, Z"
+          }
+        ]
+      },
+      "answer": {
+        "mcq_key": "D"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Use band theory: compare the gap/overlap between valence and conduction bands."
+        ],
+        "level2": [
+          "Conductor: overlapping bands; Insulator: large band gap; Semiconductor: small band gap."
+        ],
+        "level3": [
+          {
+            "step": "Identify conductor",
+            "mark_award": 0.5,
+            "content": "Conductor has valence and conduction bands overlapping."
+          },
+          {
+            "step": "Identify insulator vs semiconductor",
+            "mark_award": 0.5,
+            "content": "Insulator has a large band gap; semiconductor has a small gap."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "From the diagrams, the correct row is option D."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Mixing up conductor and semiconductor band gaps",
+          "Not recognising overlap indicates a conductor"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q24",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Electricity",
+      "topic": "Semiconductors",
+      "subtopics": [
+        "Temperature effects",
+        "Charge carriers"
+      ],
+      "prompt": {
+        "stem": "An increase in the temperature of a semiconductor",
+        "options": [
+          "A increases its conductivity by allowing more electrons to reach the conduction band",
+          "B increases its conductivity by increasing the band gap between the valence band and the conduction band",
+          "C decreases its conductivity by allowing more electrons to reach the conduction band",
+          "D decreases its conductivity by allowing fewer electrons to reach the conduction band",
+          "E has no effect on its conductivity."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "A"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Relate temperature to the number of charge carriers in a semiconductor."
+        ],
+        "level2": [
+          "Higher temperature promotes more electrons into the conduction band, increasing carrier concentration and conductivity."
+        ],
+        "level3": [
+          {
+            "step": "Carrier concentration",
+            "mark_award": 0.5,
+            "content": "Heating gives electrons energy to cross the band gap into the conduction band."
+          },
+          {
+            "step": "Effect on conductivity",
+            "mark_award": 0.5,
+            "content": "More free charge carriers → higher conductivity (lower resistance)."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "Option A."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Assuming higher temperature always increases resistance (metals)",
+          "Thinking the band gap increases with temperature in this course model"
+        ]
+      }
+    },
+    {
+      "id": "2024-P1-Q25",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Electricity",
+      "topic": "Electronics",
+      "subtopics": [
+        "Diodes and LEDs",
+        "AC supply behaviour"
+      ],
+      "prompt": {
+        "stem": "A student connects four identical red light emitting diodes (LEDs) to a 2 V rms AC supply as shown. Which of the LEDs P, Q, R, and S will emit light?",
+        "options": [
+          "A P only",
+          "B Q only",
+          "C P and Q only",
+          "D P and R only",
+          "E Q and S only"
+        ],
+        "assets": [
+          {
+            "type": "image",
+            "src": "images/2024/p1/2024-P1-Q25_fig1.png",
+            "alt": "LED circuit connected to 2 V rms AC supply"
+          }
+        ]
+      },
+      "answer": {
+        "mcq_key": "C"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Recall that an LED (diode) only conducts when forward-biased."
+        ],
+        "level2": [
+          "On AC, LEDs that are forward-biased on either half-cycle can emit (they flash at mains frequency, perceived as on). Determine which branches allow forward bias."
+        ],
+        "level3": [
+          {
+            "step": "Forward bias condition",
+            "mark_award": 0.5,
+            "content": "LED emits when current flows in its forward direction; reverse bias blocks current."
+          },
+          {
+            "step": "AC halves",
+            "mark_award": 0.5,
+            "content": "On each half-cycle, only the LED(s) oriented forward for that polarity will conduct."
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "From the circuit, LEDs P and Q emit → option C."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Assuming LEDs conduct in both directions on AC",
+          "Ignoring that different LEDs may be reverse-biased on each half-cycle"
+        ]
+      }
+    }
+  ]
+}

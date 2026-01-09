@@ -1,0 +1,71 @@
+{
+  "source": {
+    "authority": "SQA",
+    "qualification_level": "Higher",
+    "subject": "Physics",
+    "year": 2024,
+    "paper": 1,
+    "component": "Multiple Choice",
+    "question_paper_pdf": "NH_Physics_Paper1-Multiple-choice_2024.pdf",
+    "marking_instructions_pdf": "mi_NH_Physics_Paper-1-Multiple-choice_2024.pdf"
+  },
+  "questions": [
+    {
+      "id": "2024-P1-Q08",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Our Dynamic Universe",
+      "topic": "Special relativity",
+      "subtopics": [
+        "Length contraction",
+        "Lorentz factor"
+      ],
+      "prompt": {
+        "stem": "The Queensferry Crossing has a length of 2700 m as measured by a stationary observer on Earth. A spaceship travels past Earth at a constant speed of 1.80 × 108 m s−1 relative to Earth. The length of the Queensferry Crossing as measured by an observer on the spaceship is",
+        "options": [
+          "A 1100 m",
+          "B 1700 m",
+          "C 2200 m",
+          "D 3400 m",
+          "E 4300 m."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "C"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Identify the length contraction relationship for an object moving relative to an observer."
+        ],
+        "level2": [
+          "Find γ for v = 1.80×10⁸ m s−1, then use L = L0/γ."
+        ],
+        "level3": [
+          {
+            "step": "Formula",
+            "mark_award": 0.5,
+            "content": "L = L0/γ, γ = 1/√(1−v²/c²)"
+          },
+          {
+            "step": "Substitution",
+            "mark_award": 0.5,
+            "content": "v/c = (1.80×10⁸)/(3.00×10⁸)=0.60 → γ = 1/√(1−0.60²)=1/0.8=1.25"
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "L = 2700/1.25 = 2160 m ≈ 2200 m (option C). Shorter length is expected."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Using L = γL0 instead of L = L0/γ",
+          "Using c = 3.0×10⁸ but not converting v/c correctly"
+        ]
+      }
+    }
+  ]
+}

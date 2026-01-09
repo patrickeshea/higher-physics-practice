@@ -1,0 +1,71 @@
+{
+  "source": {
+    "authority": "SQA",
+    "qualification_level": "Higher",
+    "subject": "Physics",
+    "year": 2024,
+    "paper": 1,
+    "component": "Multiple Choice",
+    "question_paper_pdf": "NH_Physics_Paper1-Multiple-choice_2024.pdf",
+    "marking_instructions_pdf": "mi_NH_Physics_Paper-1-Multiple-choice_2024.pdf"
+  },
+  "questions": [
+    {
+      "id": "2024-P1-Q13",
+      "paper": 1,
+      "type": "mcq",
+      "marks": 1,
+      "unit": "Particles and Waves",
+      "topic": "Particles",
+      "subtopics": [
+        "Mass–energy equivalence",
+        "Nuclear reactions"
+      ],
+      "prompt": {
+        "stem": "The following statement represents a nuclear reaction. 12 4 16 6 2 C He O8   γ The total mass of the particles before the reaction is 26.572 × 10−27 kg. The total mass of the particles after the reaction is 26.560 × 10−27 kg. The energy released in this reaction is",
+        "options": [
+          "A 1.20 × 10−29 J",
+          "B 3.60 × 10−21 J",
+          "C 5.40 × 10−13 J",
+          "D 1.08 × 10−12 J",
+          "E   2.39 × 10−9 J."
+        ],
+        "assets": []
+      },
+      "answer": {
+        "mcq_key": "D"
+      },
+      "socratic_hints": {
+        "level1": [
+          "Use mass defect and E = Δmc²."
+        ],
+        "level2": [
+          "Find Δm = (mass before − mass after), then multiply by c²."
+        ],
+        "level3": [
+          {
+            "step": "Mass defect",
+            "mark_award": 0.5,
+            "content": "Δm = (26.572 − 26.560)×10−27 kg = 0.012×10−27 kg = 1.2×10−29 kg"
+          },
+          {
+            "step": "Energy",
+            "mark_award": 0.5,
+            "content": "E = Δmc² = (1.2×10−29)(3.00×10⁸)²"
+          },
+          {
+            "step": "Final answer",
+            "mark_award": 1.0,
+            "content": "E = 1.08×10−12 J (option D). Unit check: kg·(m² s−2)=J."
+          }
+        ]
+      },
+      "diagnostics": {
+        "common_errors": [
+          "Using Δm without converting to kg properly (power of 10 error)",
+          "Using E = mc instead of E = mc²"
+        ]
+      }
+    }
+  ]
+}
